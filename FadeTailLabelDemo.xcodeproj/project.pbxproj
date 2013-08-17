@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		88A8950417BF4EDC00033F5A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88A8950317BF4EDC00033F5A /* UIKit.framework */; };
+		88A8950617BF4EDC00033F5A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88A8950517BF4EDC00033F5A /* Foundation.framework */; };
+		88A8950817BF4EDC00033F5A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88A8950717BF4EDC00033F5A /* CoreGraphics.framework */; };
+		88A8950E17BF4EDC00033F5A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 88A8950C17BF4EDC00033F5A /* InfoPlist.strings */; };
+		88A8951017BF4EDC00033F5A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A8950F17BF4EDC00033F5A /* main.m */; };
+		88A8951417BF4EDC00033F5A /* YSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A8951317BF4EDC00033F5A /* YSAppDelegate.m */; };
+		88A8951617BF4EDC00033F5A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 88A8951517BF4EDC00033F5A /* Default.png */; };
+		88A8951817BF4EDC00033F5A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88A8951717BF4EDC00033F5A /* Default@2x.png */; };
+		88A8951A17BF4EDC00033F5A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88A8951917BF4EDC00033F5A /* Default-568h@2x.png */; };
+		88A8951D17BF4EDC00033F5A /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88A8951B17BF4EDC00033F5A /* MainStoryboard_iPhone.storyboard */; };
+		88A8952017BF4EDC00033F5A /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88A8951E17BF4EDC00033F5A /* MainStoryboard_iPad.storyboard */; };
+		88A8952317BF4EDC00033F5A /* YSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A8952217BF4EDC00033F5A /* YSViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		88A8950017BF4EDC00033F5A /* FadeTailLabelDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FadeTailLabelDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		88A8950317BF4EDC00033F5A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		88A8950517BF4EDC00033F5A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		88A8950717BF4EDC00033F5A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		88A8950B17BF4EDC00033F5A /* FadeTailLabelDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FadeTailLabelDemo-Info.plist"; sourceTree = "<group>"; };
+		88A8950D17BF4EDC00033F5A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		88A8950F17BF4EDC00033F5A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		88A8951117BF4EDC00033F5A /* FadeTailLabelDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FadeTailLabelDemo-Prefix.pch"; sourceTree = "<group>"; };
+		88A8951217BF4EDC00033F5A /* YSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YSAppDelegate.h; sourceTree = "<group>"; };
+		88A8951317BF4EDC00033F5A /* YSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YSAppDelegate.m; sourceTree = "<group>"; };
+		88A8951517BF4EDC00033F5A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		88A8951717BF4EDC00033F5A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		88A8951917BF4EDC00033F5A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		88A8951C17BF4EDC00033F5A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		88A8951F17BF4EDC00033F5A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		88A8952117BF4EDC00033F5A /* YSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YSViewController.h; sourceTree = "<group>"; };
+		88A8952217BF4EDC00033F5A /* YSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YSViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		88A894FD17BF4EDC00033F5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88A8950417BF4EDC00033F5A /* UIKit.framework in Frameworks */,
+				88A8950617BF4EDC00033F5A /* Foundation.framework in Frameworks */,
+				88A8950817BF4EDC00033F5A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		88A894F717BF4EDC00033F5A = {
+			isa = PBXGroup;
+			children = (
+				88A8950917BF4EDC00033F5A /* FadeTailLabelDemo */,
+				88A8950217BF4EDC00033F5A /* Frameworks */,
+				88A8950117BF4EDC00033F5A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		88A8950117BF4EDC00033F5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88A8950017BF4EDC00033F5A /* FadeTailLabelDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88A8950217BF4EDC00033F5A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				88A8950317BF4EDC00033F5A /* UIKit.framework */,
+				88A8950517BF4EDC00033F5A /* Foundation.framework */,
+				88A8950717BF4EDC00033F5A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		88A8950917BF4EDC00033F5A /* FadeTailLabelDemo */ = {
+			isa = PBXGroup;
+			children = (
+				88A8951217BF4EDC00033F5A /* YSAppDelegate.h */,
+				88A8951317BF4EDC00033F5A /* YSAppDelegate.m */,
+				88A8951B17BF4EDC00033F5A /* MainStoryboard_iPhone.storyboard */,
+				88A8951E17BF4EDC00033F5A /* MainStoryboard_iPad.storyboard */,
+				88A8952117BF4EDC00033F5A /* YSViewController.h */,
+				88A8952217BF4EDC00033F5A /* YSViewController.m */,
+				88A8950A17BF4EDC00033F5A /* Supporting Files */,
+			);
+			path = FadeTailLabelDemo;
+			sourceTree = "<group>";
+		};
+		88A8950A17BF4EDC00033F5A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				88A8950B17BF4EDC00033F5A /* FadeTailLabelDemo-Info.plist */,
+				88A8950C17BF4EDC00033F5A /* InfoPlist.strings */,
+				88A8950F17BF4EDC00033F5A /* main.m */,
+				88A8951117BF4EDC00033F5A /* FadeTailLabelDemo-Prefix.pch */,
+				88A8951517BF4EDC00033F5A /* Default.png */,
+				88A8951717BF4EDC00033F5A /* Default@2x.png */,
+				88A8951917BF4EDC00033F5A /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		88A894FF17BF4EDC00033F5A /* FadeTailLabelDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88A8952617BF4EDC00033F5A /* Build configuration list for PBXNativeTarget "FadeTailLabelDemo" */;
+			buildPhases = (
+				88A894FC17BF4EDC00033F5A /* Sources */,
+				88A894FD17BF4EDC00033F5A /* Frameworks */,
+				88A894FE17BF4EDC00033F5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FadeTailLabelDemo;
+			productName = FadeTailLabelDemo;
+			productReference = 88A8950017BF4EDC00033F5A /* FadeTailLabelDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		88A894F817BF4EDC00033F5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = YS;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Shingai Yoshimi";
+			};
+			buildConfigurationList = 88A894FB17BF4EDC00033F5A /* Build configuration list for PBXProject "FadeTailLabelDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 88A894F717BF4EDC00033F5A;
+			productRefGroup = 88A8950117BF4EDC00033F5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88A894FF17BF4EDC00033F5A /* FadeTailLabelDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		88A894FE17BF4EDC00033F5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88A8950E17BF4EDC00033F5A /* InfoPlist.strings in Resources */,
+				88A8951617BF4EDC00033F5A /* Default.png in Resources */,
+				88A8951817BF4EDC00033F5A /* Default@2x.png in Resources */,
+				88A8951A17BF4EDC00033F5A /* Default-568h@2x.png in Resources */,
+				88A8951D17BF4EDC00033F5A /* MainStoryboard_iPhone.storyboard in Resources */,
+				88A8952017BF4EDC00033F5A /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88A894FC17BF4EDC00033F5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88A8951017BF4EDC00033F5A /* main.m in Sources */,
+				88A8951417BF4EDC00033F5A /* YSAppDelegate.m in Sources */,
+				88A8952317BF4EDC00033F5A /* YSViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		88A8950C17BF4EDC00033F5A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88A8950D17BF4EDC00033F5A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		88A8951B17BF4EDC00033F5A /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88A8951C17BF4EDC00033F5A /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		88A8951E17BF4EDC00033F5A /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88A8951F17BF4EDC00033F5A /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		88A8952417BF4EDC00033F5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		88A8952517BF4EDC00033F5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		88A8952717BF4EDC00033F5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FadeTailLabelDemo/FadeTailLabelDemo-Prefix.pch";
+				INFOPLIST_FILE = "FadeTailLabelDemo/FadeTailLabelDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		88A8952817BF4EDC00033F5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FadeTailLabelDemo/FadeTailLabelDemo-Prefix.pch";
+				INFOPLIST_FILE = "FadeTailLabelDemo/FadeTailLabelDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88A894FB17BF4EDC00033F5A /* Build configuration list for PBXProject "FadeTailLabelDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88A8952417BF4EDC00033F5A /* Debug */,
+				88A8952517BF4EDC00033F5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88A8952617BF4EDC00033F5A /* Build configuration list for PBXNativeTarget "FadeTailLabelDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88A8952717BF4EDC00033F5A /* Debug */,
+				88A8952817BF4EDC00033F5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 88A894F817BF4EDC00033F5A /* Project object */;
+}
