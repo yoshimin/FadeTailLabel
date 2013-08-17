@@ -1,7 +1,7 @@
 FadeTailLabel
 =============
 
-![Alt text](https://github.com/yoshimin/FadeTailLabel/blob/master/screenShot.png)
+![Alt text](screenShot.png)
 
 You need only 2 files:
 
