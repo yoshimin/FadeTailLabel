@@ -19,6 +19,8 @@
 		88A8951D17BF4EDC00033F5A /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88A8951B17BF4EDC00033F5A /* MainStoryboard_iPhone.storyboard */; };
 		88A8952017BF4EDC00033F5A /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88A8951E17BF4EDC00033F5A /* MainStoryboard_iPad.storyboard */; };
 		88A8952317BF4EDC00033F5A /* YSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A8952217BF4EDC00033F5A /* YSViewController.m */; };
+		88A8952F17BF4F3200033F5A /* YSFadeTailLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A8952E17BF4F3200033F5A /* YSFadeTailLabel.m */; };
+		88A8953117BF4F5D00033F5A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88A8953017BF4F5D00033F5A /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +41,9 @@
 		88A8951F17BF4EDC00033F5A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		88A8952117BF4EDC00033F5A /* YSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YSViewController.h; sourceTree = "<group>"; };
 		88A8952217BF4EDC00033F5A /* YSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YSViewController.m; sourceTree = "<group>"; };
+		88A8952D17BF4F3200033F5A /* YSFadeTailLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YSFadeTailLabel.h; path = FadeTailLabel/YSFadeTailLabel.h; sourceTree = "<group>"; };
+		88A8952E17BF4F3200033F5A /* YSFadeTailLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YSFadeTailLabel.m; path = FadeTailLabel/YSFadeTailLabel.m; sourceTree = "<group>"; };
+		88A8953017BF4F5D00033F5A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88A8953117BF4F5D00033F5A /* QuartzCore.framework in Frameworks */,
 				88A8950417BF4EDC00033F5A /* UIKit.framework in Frameworks */,
 				88A8950617BF4EDC00033F5A /* Foundation.framework in Frameworks */,
 				88A8950817BF4EDC00033F5A /* CoreGraphics.framework in Frameworks */,
@@ -75,6 +81,7 @@
 		88A8950217BF4EDC00033F5A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				88A8953017BF4F5D00033F5A /* QuartzCore.framework */,
 				88A8950317BF4EDC00033F5A /* UIKit.framework */,
 				88A8950517BF4EDC00033F5A /* Foundation.framework */,
 				88A8950717BF4EDC00033F5A /* CoreGraphics.framework */,
@@ -85,6 +92,7 @@
 		88A8950917BF4EDC00033F5A /* FadeTailLabelDemo */ = {
 			isa = PBXGroup;
 			children = (
+				88A8952917BF4EEC00033F5A /* FadeTailLabel */,
 				88A8951217BF4EDC00033F5A /* YSAppDelegate.h */,
 				88A8951317BF4EDC00033F5A /* YSAppDelegate.m */,
 				88A8951B17BF4EDC00033F5A /* MainStoryboard_iPhone.storyboard */,
@@ -108,6 +116,15 @@
 				88A8951917BF4EDC00033F5A /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		88A8952917BF4EEC00033F5A /* FadeTailLabel */ = {
+			isa = PBXGroup;
+			children = (
+				88A8952D17BF4F3200033F5A /* YSFadeTailLabel.h */,
+				88A8952E17BF4F3200033F5A /* YSFadeTailLabel.m */,
+			);
+			name = FadeTailLabel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,6 +198,7 @@
 				88A8951017BF4EDC00033F5A /* main.m in Sources */,
 				88A8951417BF4EDC00033F5A /* YSAppDelegate.m in Sources */,
 				88A8952317BF4EDC00033F5A /* YSViewController.m in Sources */,
+				88A8952F17BF4F3200033F5A /* YSFadeTailLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,23 +7,21 @@
 //
 
 #import "YSViewController.h"
+#import "YSFadeTailLabel.h"
 
 @interface YSViewController ()
+
+@property (nonatomic, assign) IBOutlet YSFadeTailLabel *label;
 
 @end
 
 @implementation YSViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
+    
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
-}
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    
+    self.label.text = @"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.";
 }
 
 @end
